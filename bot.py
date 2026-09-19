@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from discord import app_commands
 import random
+import os
 
 
 # ============================================================
@@ -1189,6 +1190,5 @@ async def ping(
 # START
 # ============================================================
 
-import os
 
 bot.run(os.getenv("DISCORD_TOKEN"))
